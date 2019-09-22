@@ -1,0 +1,31 @@
+.nav {
+    grid-area: n;
+    background-color: #edeef0;
+    padding: 10px;
+}
+
+.item a {
+    color:#68757d;
+    text-decoration: none;
+	padding:10px;
+	
+}
+
+.item a.activeLink {
+    color: gold;
+}
+
+.item{
+	color:#9ab1c6;
+
+	}
+
+
+.item i {
+	padding:10px;
+}
+.item:hover{
+	background:#d0dce7;
+	border-radius:3px;
+	
+}

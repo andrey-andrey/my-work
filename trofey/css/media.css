@@ -1,0 +1,158 @@
+@media screen and (max-width: 1200px) {
+.header-email{
+	display:none;
+}
+}
+	
+
+
+@media screen and (max-width: 980px) {
+	.topnav .tab{
+    display: none;
+  }
+
+ .topnav .icon {
+    display: block;
+    color: black;
+	
+  }
+  
+   .topnav.responsive {
+    display: block;
+  }
+  
+  .topnav.responsive .tab {
+
+    display: block;
+    
+  }
+  
+  .tab.active {
+	outline:2px solid #5ab22e;
+	-moz-outline-radius:10px 10px 10px 10px;
+	border-color:#fff;
+	}
+
+	.header-items{
+		display:block;
+	}
+	.logo{
+		text-align:center;
+	}
+	
+	
+	.heder_mein{
+		margin-bottom:10px;
+		
+		
+	}
+	
+	.topnav.responsive {
+    display: block;
+  }
+	
+	
+
+	
+	.registration{
+		margin-top:10px;
+			
+		
+	}
+ 
+	
+	
+		
+
+	
+	.slayder-text{
+		min-height:150px;
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		
+		
+	}
+	
+
+	.slayder-slaid{
+		
+		align-items:center;
+		justify-content: center; 
+	}
+
+	
+	.banner-slider__buttons{
+		display:none;
+	}
+	
+	
+	.tab:hover{
+	-moz-outline-radius:10px 10px 10px 10px;
+	}
+	
+	
+	
+	.footer{
+		flex-direction:column;
+		align-items:center;
+		justify-content:center;
+	}
+	.copirait{
+	width:auto;
+	margin-bottom:10px;
+	}
+	.social{
+	width:auto;	
+	}
+
+
+}
+@media screen and (max-width: 630px) {
+	.categ{ display:none;}
+	.mein-slider{
+		float:none;
+		width:100%;
+	}
+	.banner-slider{
+	display:none;}
+	.mod
+	{
+	width:300px;
+	}
+	.osnovclass{
+		float:none;
+		width:100%;
+		
+	}
+	
+	
+	
+}
+
+@media screen and (max-width: 500px){
+	
+	.heder_mein{
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		text-align:center;
+		justify-content: center;
+		
+	}
+	.registration{
+		order:1;
+		padding-top:10px;
+	}
+	
+	.search{
+		order:2;
+	}
+	.popular_product{
+		justify-content:space-around;
+	}
+	.mod{
+		width:auto;
+	}
+}
+
